@@ -1,0 +1,71 @@
+body {
+  background: url(./images/grey-geometrical-shapes-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: whitesmoke;
+  width: 85%;
+  height: 85%;
+}
+header {
+  width: 90%;
+  height: 90%;
+  background: url(./images/fondo-lineas.jpg) center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+
+.personal-info{
+  display: flex;
+
+}
+.personal-info h5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.seccion {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-self: center;
+}
+.seccion h2 {
+  background-color: lightgray;
+}
+
+.seccion ul {
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.seccion ul li {
+  margin: 10px;
+}
+
+.empresa {
+  margin: 10px;
+}
+.puesto {
+  margin: 10px;
+}
+
+@media (max-width: 500px ) {
+  .personal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .personal-info h5 {
+    margin: 5px;
+  }
+}
